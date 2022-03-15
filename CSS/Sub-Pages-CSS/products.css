@@ -1,0 +1,207 @@
+*{
+    margin: auto;
+    max-width: 90%;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header{
+    background-color: rgb(0, 204, 0);
+    padding: 5px;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+.p-name a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    max-width: 95%;
+    background-color: rgb(130, 0, 223);
+    border-radius: 5px;
+}
+
+.div-li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-btm{
+    margin: 25px;
+    padding: 5px;
+    max-height: 50px;
+    background-color: #9A00A8bb;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section{
+    background-image: linear-gradient(180deg, indigo, white);
+}
+
+
+.infos-prods{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.h1-title{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+.prod-cont, .prod-cont-2, .prod-cont-3, .prod-cont-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+    margin: 10%;
+    padding: 30%;
+    border: black solid 2px;
+}
+
+.p-info{
+    text-align: center;
+    color: black;
+    background-color: #9A00A8bb;
+    font-size: 24px;
+    border: black solid 2px;
+    text-shadow: black;
+}
+
+.prod-cont{
+    background-image: url(../../Images/ACAI\ 1.jpeg);
+}
+
+.prod-cont-2{
+    background-image: url(../../Images/ACAI\ 3.jpeg);
+}
+
+.prod-cont-3{
+    background-image: url(../../Images/ACAI\ 4.jpeg);
+}
+
+.prod-cont-4{
+    background-image: url(../../Images/ACAI\ 5.jpeg);
+}
+
+
+.hover:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    color: rgb(0, 204, 0);
+}
+
+footer{
+    background-color: black;
+}
+
+.ctn-icons{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+@media (max-width: 1263px) and (min-width:10px){
+
+    *{
+        margin: auto;
+        max-width: 100%;
+        box-sizing: border-box
+    }
+
+    header{
+        background-color: rgb(0, 204, 0);
+        text-align: center;
+        max-width: 100%;
+        border-radius: 0;
+    }
+    
+    .p-name a{
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-btm{
+        margin: 3px;
+        padding: 2px
+        background-color: #9A00A8bb;
+        border-radius: 5px;
+    }
+
+    .container{
+        display: flex;
+        max-width: 100%;
+        background-color: rgb(130, 0, 223);
+        border-radius: 0;
+    }
+    
+    .nav-btm{   
+        background-color: #9A00A8bb;
+        border-radius: 3px;
+    }
+    
+    a{
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .h1-title{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 22px;
+        color: white;
+    }
+
+    .prod-cont, .prod-cont-2, .prod-cont-3, .prod-cont-4{
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: visible;
+        margin: 10%;
+        padding: 30%;
+        border: black solid 2px;
+        border-radius: 25px;
+    }
+    
+    .p-info{
+        text-align: center;
+        color: black;
+        background-color: #9A00A8bb;
+        font-size: 12px;
+        border: black solid 2px;
+        text-shadow: black;
+    }
+    
+    
+    
+}

@@ -1,0 +1,1 @@
+Estou criando essa página baseado em um pequeno negócio que há em meu bairro. // I'm creating this page based on a small business in my neighborhood.

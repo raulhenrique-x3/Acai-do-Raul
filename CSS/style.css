@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+    
+
+body{
+    background-color:indigo;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+header{
+    background-color: rgb(49, 0, 88);
+    margin: auto;
+}
+
+.p-name a{
+    margin-left: 10px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.div-li{
+    background-color: rgb(130, 0, 223);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.nav-btm :hover{
+    width: 50%;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+li a{
+    display: flex;
+    font-size: 16px;
+    margin-right: 150px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #9A00A8bb;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.content-cont{
+    max-width: 100%;
+    margin: auto;
+}
+
+section{
+    padding: 210px;
+    background-image: url(../Images/acai-home.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main-h1{
+    font-size: 46px;
+    text-align: center;
+}
+
+.info-cont{
+    display: flex;
+    background-color: #000000bb;
+}
+
+.acai-3{
+    padding: 100px;
+    height: 320px;
+    width: 250px;
+    border-radius: 180px;
+}
+
+.text-home-1{
+    padding: 120px 10px;
+    font-size: 42px;
+    color: white;
+}
+
+.ul-home-1{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.prod-menu{
+    display: flex;
+}
+
+.prod-menu img{
+    padding: 20px;
+    width: 40%;
+    border-radius: 50px;
+}
+
+.text-home-2{
+    padding: 120px 10px;
+    font-size: 42px;
+    color: white;
+}
+
+.ul-home-2{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    list-style: none;
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+.ul-input{
+    border: 0;
+    border: 3px solid black;
+    background: black;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ctn-icons{
+    position: relative;
+    margin-left: 80%;
+    align-self: center;
+}
+
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+@media (max-width: 1263px) and (min-width:10px){
+    header{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    li a{
+        display: flex;
+        font-size: 10px;
+        margin-right: 5px;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #9A00A8bb;
+    }
+    
+    section{
+        padding: 60px;
+        background-image: url(../Images/acai-home.jpg);
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .text-home-1, .text-home-2{
+        padding: 30px 10px;
+        font-size: 24px;
+        color: white;
+    }
+    
+    .ul-home-1, .ul-home-2{
+        margin-top: 10px;
+        color: white;
+        font-size: 16px;
+        list-style: none;
+    }
+    
+    .acai-3, .acai-4{
+        display: none;
+    }
+
+    .ul-input{
+        border: 0;
+        border: 3px solid black;
+        background: black;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .ctn-icons{
+        display: none;  
+    }
+    
+    
+}

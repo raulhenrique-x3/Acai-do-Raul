@@ -1,0 +1,321 @@
+*{
+    margin: auto;
+    padding: auto;
+    max-width: 90%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header{
+    background-color: rgb(0, 204, 0);
+    padding: 5px;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+.p-name a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    max-width: 95%;
+    background-color: rgb(130, 0, 223);
+    border-radius: 5px;
+
+}
+
+.div-li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 25px;
+    padding: 5px;
+    max-height: 50px;
+    background-color: #9A00A8bb;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;  
+}
+
+section{
+    background-image: linear-gradient(180deg, indigo, white);
+}
+
+.list-h1, .list-corb{
+    text-align: center;
+    color: white;
+
+}
+
+.list-h2{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    padding-bottom: 80px;
+}
+
+.acomp-imgs, .corb-imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.product-list{
+    padding-top: 40px;
+}
+
+.list-corb{
+    padding-top: 80px;
+}
+
+.banana-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Banana.jpeg);
+}
+
+.abacaxi-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Abacaxi.jpeg);
+
+}
+
+.manga-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Manga.jpeg);
+
+}
+
+.uva-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Uva.jpeg);
+}
+
+.maca-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Maça.jpeg);
+}
+
+.corb-choco{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/chococorb.jpg);
+}
+
+.corb-mrng{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-mrng.jpg);
+}
+
+.corb-ltcnds{
+    margin: 20px;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-ltcnds.JFIF);
+    background-size: 290px;
+    background-repeat: no-repeat;
+    border: #000000 5px solid;
+    text-align: center;
+}
+
+.corb-acai{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-acai.jpg);
+}
+
+.corb-abx{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-abx.jpg);
+}
+
+.corb-kiwi{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-kiwi.jpg);
+}
+
+.corb-ment{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-ment.jpg);
+}
+
+.corb-dclt{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-dclt.jpg);
+}
+
+.corb-mel{    
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    background-size: 230px;
+    background-repeat: no-repeat;
+    border: #000000 5px solid;
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-mel.jpg);
+}
+
+.kiwi-img{
+    background-image: url(../../Sub-Pages/Demand\ Imgs/Kiwi.jpg);
+}
+
+.banana-img, .abacaxi-img, .manga-img, .uva-img, .maca-img, 
+.corb-choco, .corb-mrng, .corb-acai, .corb-abx,
+.corb-kiwi, .corb-ment, .corb-dclt, .kiwi-img{
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border: #000000 5px solid;
+}
+.h4{
+    background-color: #000000bb;
+    max-height: 10%;
+    max-width: 100%;
+}
+
+.focus :hover{
+    width: 220px;
+    height: 190px;
+    transition: 1s ease;
+} 
+
+footer{
+    background-color: black;
+}
+
+.ctn-icons{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+@media (max-width: 1263px) and (min-width:10px){
+
+    *{
+        margin: auto;
+        max-width: 100%;
+        box-sizing: border-box
+    }
+
+    header{
+        background-color: rgb(0, 204, 0);
+        text-align: center;
+        max-width: 100%;
+        border-radius: 0;
+    }
+    
+    .p-name a{
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-btm{
+        margin: 3px;
+        padding: 2px;
+        background-color: #9A00A8bb;
+        border-radius: 5px;
+    }
+
+    .container{
+        display: flex;
+        max-width: 100%;
+        background-color: rgb(130, 0, 223);
+        border-radius: 0;
+    }
+    
+    .nav-btm{   
+        background-color: #9A00A8bb;
+        border-radius: 3px;
+    }
+    
+    a{
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .list-h2{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .product-list{
+        padding-top: 10px;
+    }
+    
+    .list-corb{
+        padding-top: 20px;
+    }
+    
+
+    .banana-img, .abacaxi-img, .manga-img, .uva-img, .maca-img, 
+.corb-choco, .corb-mrng, .corb-acai, .corb-abx,
+.corb-kiwi, .corb-ment, .corb-dclt, .kiwi-img{
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    height: 85px;
+    background-color: white;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border: #000000 2px solid;
+    }
+
+    .corb-mel{    
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    height: 85px;
+    background-color: white;
+    background-size: 115px;
+    background-repeat: no-repeat;
+    border: #000000 2px solid;
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-mel.jpg);
+    }
+
+    .corb-ltcnds{
+    margin: 10px;
+    width: 100px;
+    height: 85px;
+    background-color: white;
+    background-image: url(../../Sub-Pages/Demand\ Imgs/corb-ltcnds.JFIF);
+    background-size: 145px;
+    background-repeat: no-repeat;
+    border: #000000 2px solid;
+    text-align: center;
+    }
+    .h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        max-height: 0%;
+        max-width: 0%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    
+    .focus :hover{
+    width: 90%;
+    height: 90%;
+    }
+}
