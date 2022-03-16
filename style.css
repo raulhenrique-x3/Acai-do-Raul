@@ -60,7 +60,7 @@ li a{
 
 section{
     padding: 210px;
-    background-image: url(./Images/acai-home.jpg);
+    background-image: url(/Images/acai-home.jpg);
     background-size: cover;
     overflow: hidden;
 }
